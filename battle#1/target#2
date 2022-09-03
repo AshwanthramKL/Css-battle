@@ -1,0 +1,39 @@
+<!-- CARROM -->
+
+<div class="container">
+  <div class="square one" style="order: 1"></div>
+  <div class="square one" style="order: 2"></div>
+  <div class="square" style="order: 1"></div>
+  <div class="square" style="order: 2"></div>
+
+</div>
+
+  
+<style>
+  *{
+    margin: 0;
+    background: #62374e;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom:50px;
+    flex-wrap: wrap;
+    
+  }
+  .square {
+    width: 50px;
+    height: 50px;
+    background: #fdc57b;
+    flex-basis: 50px;
+    margin-left: 50px;    
+  }
+
+  .one{
+    margin-bottom: 100px;
+    margin-right: 150px;
+  }
+</style>
