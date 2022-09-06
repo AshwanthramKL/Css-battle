@@ -1,0 +1,57 @@
+  <!-- Ups n Downs -->
+
+<div class="container">
+  <div class="square one down" style="order: 1;">
+  
+  </div>
+    
+    
+  
+  <div class="square two up"  style="order: 2;">
+    
+  </div>
+    
+  <div class="square three down" style="order: 3;">
+   
+  </div>
+  
+  </div>
+  
+  <style>
+    *{
+      background: #62306D;
+      margin: 0;
+    }
+    .container{
+      display: flex;
+      padding-left: 50px;
+    }
+    
+    .one{
+      margin-top: 150px;
+    }
+    .two{
+      margin-top: 50px;
+    }
+    .three{
+      margin-top: 150px;
+    
+    }
+  .square{
+      width: 100px;
+      height: 100px;
+      background: #F7EC7D;
+    }
+  
+    .up{
+      border-top-left-radius: 50%;
+      border-top-right-radius: 50%;
+      
+    }
+  
+    .down{
+      border-bottom-left-radius: 50%;
+      border-bottom-right-radius: 50%;
+      
+    }
+  </style>
