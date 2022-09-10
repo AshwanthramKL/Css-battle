@@ -1,0 +1,87 @@
+<!-- EYE OF SAURON -->
+
+<div class='left circle'>
+    <div class='square left'></div>
+    <div class='left inner circle'></div>
+  </div>
+  <div class='outer circle'>
+    <div class='center inner circle'></div>
+  </div>
+  <div class='right circle'>
+    <div class='square right'></div>
+    <div class='right inner circle'></div>
+  </div>
+  
+  <style>
+    *{
+      margin: 0;
+      }
+  
+    body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #191210;
+    }
+    .circle {
+      width: 100px;
+      height: 100px;
+      background: #dd6b4d;
+      border-radius: 50%;
+    }
+  
+    .outer{
+      z-index: 5;
+      background-color: #191210;
+      border: 20px solid #ECA03D;
+      margin: 0 -20px;
+    }
+  
+    .inner{
+      background: #84271C;
+      height: 60px;
+      width: 60px;
+      margin: 20px;
+    }
+  
+    .left{
+      z-index: 1;
+      background: #ECA03D;
+    }
+  
+    .right{
+      z-index: 1;
+      background: #ECA03D;
+    }
+    .center.inner{
+      width: 50px;
+      height: 50px;
+      margin: 25px;
+    }
+    
+    .left .inner{
+      background: #191210;
+      margin-top: -30px;
+      margin-left: 20px;  
+    }
+  
+    .right .inner{
+      background: #191210;
+      margin-top: -80px;
+      margin-left: 20px;
+    }
+  
+    .square{
+      z-index: 2;
+      background: #191210;
+      width: 100px;
+      height: 50px;
+    }
+  
+    .square.right{
+      margin-top: 50px; 
+      
+    }
+  </style>
+  
+  <!-- EYE OF SAURON -->
