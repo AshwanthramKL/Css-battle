@@ -1,0 +1,94 @@
+  <!-- WIGGLY MOUSTACHE -->
+  
+<div class='circle left outer'>
+    <div class='square'></div>
+    <div class='inner circle'></div>
+  </div>
+  <div class='circle center outer'>
+    <div class='inner circle'></div>
+  </div>
+  <div class='circle right outer'>
+    <div class='square'></div>
+    <div class='inner circle'></div>
+  </div>
+  
+  <style>
+    *{
+      margin: 0;
+    }
+  
+    body{
+      display: flex;
+      justify-content: center;
+      margin-top: 100px;
+      background: #F5D6B4;
+    }
+    
+    .circle {
+      background: #D86F45;
+      border-radius: 50%;
+    }
+  
+    .outer{
+      width: 100px;
+      height: 50px;
+      z-index: 5;
+      border-radius: 0px 0px 200px 200px; 
+      
+    }
+    
+    .left{
+      z-index: 2;
+      margin-top: 50px;
+      
+    }
+  
+    .right{
+      margin-top: 50px;
+      z-index: 2;
+      
+    }
+    
+    .center{
+      position: absolute;
+      border-radius: 200px 200px 0 0px; 
+      
+    }
+    
+    .left{
+      margin-right: 60px;
+    }
+    
+    .left .inner{
+      background: #F5D6B4;
+      width: 60px;
+      height: 60px;
+      margin: -40px 20px;
+    }
+    
+    .center .inner{
+      background: #F5D6B4;
+      width: 60px;
+      height: 60px;
+      margin: 20px 20px;
+    }
+  
+    .right .inner{
+      background: #F5D6B4;
+      width: 60px;
+      height: 60px;
+      margin: -40px 20px;
+    }
+  
+    .square{
+      background: #D86F45;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      margin-top: -10px;
+    }
+    .right .square{
+      margin-left: 80 
+    }
+  </style>
+  
